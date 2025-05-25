@@ -22,6 +22,21 @@ alias gp='git push'
 alias gl='git log --oneline --graph --decorate --all'
 alias gco='git checkout'
 
+#Tmux 
+alias t='tmux'
+alias ta='tmux attach'
+alias tl='tmux ls'
+alias tn='tmux new -s'
+alias tk='tmux kill-session -t'
+
+# System shortcuts
+alias update='sudo pacman -Sy'
+alias upgrade='sudo pacman -Syu'
+alias install='sudo pacman -S'
+alias instally='yay -S'
+
+
+
 # Docker shortcuts (if you use Docker)
 alias dps='docker ps'
 alias dpa='docker ps -a'
