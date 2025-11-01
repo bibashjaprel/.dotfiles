@@ -5,6 +5,7 @@ FILES=(
   ".bashrc"
   ".gitconfig"
   ".inputrc"
+  ".gitignore"
   # ".vimrc"
   # ".tmux.conf"
 )
