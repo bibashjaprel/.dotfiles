@@ -34,6 +34,7 @@ You can manually create symbolic links if needed:
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.inputrc ~/.inputrc
+ln -s ~/.dotfiles/.gitignore ~/.gitignore
 
 ```
 
