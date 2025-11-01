@@ -23,6 +23,8 @@ You can manually create symbolic links like this:
 ```bash
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/.inputrc ~/.inputrc
+
 ```
 
 ---
