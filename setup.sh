@@ -5,8 +5,8 @@ FILES=(
   ".bashrc"
   ".gitconfig"
   ".inputrc"
-  ".vimrc"
-  ".tmux.conf"
+  # ".vimrc"
+  # ".tmux.conf"
 )
 
 for file in "${FILES[@]}"; do
