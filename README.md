@@ -16,10 +16,20 @@ OR VIa `SSH`
 git clone git@github.com:bibashjaprel/.dotfiles.git
 ```
 
-## 🔗 To Manually Create Symlinks
+## ⚡ Automated Setup
+pacman.sh – Installs essential packages like git, vim, zsh, go, docker, and docker-compose.
+setup.sh – Creates symbolic links from your dotfiles in ~/.dotfiles to your home directory.
+bootstrap.sh – Main script that runs pacman.sh and setup.sh, and checks for SSH keys.
 
-You can manually create symbolic links like this:
+```bash
+cd ~/.dotfiles
+chmod +x *.sh          # Make scripts executable
+./bootstrap.sh          # Run full setup
+```
 
+## 🛠 To Manually Create Symlinks
+
+You can manually create symbolic links if needed:
 ```bash
 ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
