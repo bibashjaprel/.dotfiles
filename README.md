@@ -27,7 +27,7 @@ chmod +x *.sh          # Make scripts executable
 ./bootstrap.sh          # Run full setup
 ```
 
-## 🛠 To Manually Create Symlinks
+## 🛠 To Manually Create Symlinks (Not Recommended)
 
 You can manually create symbolic links if needed:
 ```bash
