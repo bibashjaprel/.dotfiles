@@ -1,7 +1,7 @@
 
 # 📁 DOTFILES
 
-Personal dotfiles managed by **Bibash Japrel** for configuration management and portability.
+Personal dotfiles managed by **Me** for configuration management and portability.
 
 ---
 ## Clone The Repository
