@@ -44,7 +44,9 @@ alias dpa='docker ps -a'
 alias dstop='docker stop'
 alias drm='docker rm'
 alias dlogs='docker logs -f'
+alias di='docker images'
 
+alias cls='clear'
 # Quick directory navigation
 alias ..='cd ..'
 alias ...='cd ../..'
