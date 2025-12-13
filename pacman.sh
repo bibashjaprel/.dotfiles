@@ -9,6 +9,7 @@ sudo pacman -Syu --noconfirm
 # Install core packages
 sudo pacman -S --noconfirm \
   git \
+  net-tools \
   vim \
   neovim \
   tmux \
