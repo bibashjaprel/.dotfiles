@@ -107,6 +107,9 @@ export EDITOR="$VISUAL"
 # Add composer and OpenWebStart to PATH
 export PATH="$HOME/.composer/vendor/bin:$HOME/.config/composer/vendor/bin:/opt/OpenWebStart/bin:$PATH"
 
+# Add Flutter SDK path
+export PATH="$HOME/.local/flutter/bin:$HOME/Android/Sdk/platform-tools:$PATH"
+
 # Useful functions
 
 # mkcd: make directory and enter it
